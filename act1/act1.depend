@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1663299046 source:/home/eduard/CUCEI/SemAlgoritmia/Actividad01_Repaso/act1/main.cpp
+	<iostream>
+	"Paquete.h"
+	"Paqueteria.h"
+
+1663298754 /home/eduard/CUCEI/SemAlgoritmia/Actividad01_Repaso/act1/Paquete.h
+
+1663301136 /home/eduard/CUCEI/SemAlgoritmia/Actividad01_Repaso/act1/Paqueteria.h
+	<iostream>
+	<vector>
+
