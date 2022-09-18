@@ -1,10 +1,10 @@
-Paquete #1
-Peso:10.34
-Origen:Jalisco
-Destino:Nuevo Leon
-
 Paquete #2
-Peso:20.56
+Peso:20.54
 Origen:Sinaloa
 Destino:Jalisco
+
+Paquete #3
+Peso:30.5
+Origen:Japon
+Destino:China
 
