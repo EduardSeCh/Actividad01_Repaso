@@ -5,36 +5,36 @@ using namespace std;
 
 class Paquete{
     int id;
-    int peso;
-    int *origen;
-    int *destino;
+    float peso;
+    string origen;
+    string destino;
 public:
-        void setId(int id){
-            this->id = id;
+        void setId(int idP){
+            id = idP;
         }
         int getId(){
-            return this->id;
+            return id;
         }
 
-        void setPeso(int peso){
-            this->peso = peso;
+        void setPeso(float pesoP){
+            peso = pesoP;
         }
-        int getPeso(){
-            return this->peso;
-        }
-
-        void setOrigen(int origen){
-            this->origen = &origen;
-        }
-        int* getOrigen(){
-            return this->origen;
+        float getPeso(){
+            return peso;
         }
 
-        void setDestino(int destino){
-            this->destino = &destino;
+        void setOrigen(string origenP){
+            origen = origenP;
         }
-        int* getDestino(){
-            return this->destino;
+        string getOrigen(){
+            return origen;
+        }
+
+        void setDestino(string destinoP){
+            destino = destinoP;
+        }
+        string getDestino(){
+            return destino;
         }
 };
 
